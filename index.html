@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFTOR - Yakında Geri Döneceğiz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #ffffff;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #bbbbbb;
+      margin-bottom: 30px;
+    }
+
+    .footer {
+      margin-top: 40px;
+    }
+
+    a.instagram {
+      display: inline-block;
+      margin-top: 10px;
+      color: #ff4081;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a.instagram:hover {
+      color: #ffffff;
+    }
+
+    .shine-text {
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      background: linear-gradient(90deg, #ffffff, #8e2de2, #ffffff);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 3s linear infinite;
+    }
+
+    @keyframes shine {
+      0% {
+        background-position: 200% center;
+      }
+      100% {
+        background-position: 0 center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="shine-text">AFTOR Technologies</h1>
+    <h2>Web sitemiz şu anda bakımdadır.<br>Geleceğin temsilcisi çok yakında geri dönüyor.</h2>
+    <div class="footer">
+      <p>Bizi takipte kal:</p>
+      <a href="https://instagram.com/umut_dev" target="_blank" class="instagram">@umut_dev</a>
+    </div>
+  </div>
+</body>
+</html>
